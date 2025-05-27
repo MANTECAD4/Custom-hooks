@@ -1,6 +1,6 @@
 import {  useEffect, useMemo, useReducer } from "react"
-import type  {Action, Todo}  from "@/Types/Todo";
-import { todoReducer } from "../08-useReducer/todoReducer.ts";
+import type  {Action, Todo}  from "../Types/Todo";
+import { todoReducer } from "./todoReducer.ts";
 
 export const useTodo = () => {
 
